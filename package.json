@@ -1,0 +1,13 @@
+{
+	"name": "starter",
+	"version": "1.0.0",
+	"main": "script.js",
+	"scripts": {
+		"start": "nodemon -e scss -x \"npm run sass\"",
+		"sass": "sass sass/main.scss css/style.css --no-source-map"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
